@@ -1,0 +1,163 @@
+:root {
+    --color-white: #FFF;
+    --color-white-01: rgba(255, 255, 255, 0.1);
+    --color-black: #000;
+    --color-AF9B46: #AF9B46;
+    --color-A2947A: #A2947A;
+    --color-0f0f0f: #0f0f0f;
+    --color-ff6b00: #ff6b00;
+
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Inter Tight", serif;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* colors */
+.bg-w {
+    background-color: var(--color-white);
+}
+.bg-b {
+    background-color: var(--color-black);
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+/* layout */
+.w-100 {
+    width: 100%;
+}
+.h-100 {
+    height: 100%;
+}
+.h-100dvh {
+    height: 100dvh;
+}
+.f {
+    display: flex;
+}
+.f-c {
+    flex-direction: column;
+}
+.a-i-c {
+    align-items: center;
+}
+.j-c-c {
+    justify-content: center;
+}
+.j-c-s-b {
+    justify-content: space-between;
+}
+.f-c-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-w {
+    flex-wrap: wrap;
+}
+.f-1 {
+    flex: 1;
+}
+.m-0-auto {
+    margin: 0 auto;
+}
+/* spacing */
+.g-4 {
+    gap: 4px;
+}
+.g-6 {
+    gap: 6px;
+}
+.g-8 {
+    gap: 8px;
+}
+.g-12 {
+    gap: 12px;
+}
+.g-16 {
+    gap: 16px;
+}
+.g-24 {
+    gap: 24px;
+}
+.g-32 {
+    gap: 32px;
+}
+.g-44 {
+    gap: 44px;
+}
+.g-48 {
+    gap: 48px;
+}
+.g-64 {
+    gap: 64px;
+}
+.g-88 {
+    gap: 88px;
+}
+.g-96 {
+    gap: 96px;
+}
+.b-r-8 {
+    border-radius: 8px;
+}
+.b-r-16 {
+    border-radius: 16px;
+}
+.b-r-24 {
+    border-radius: 24px;
+}
+.b-r-32 {
+    border-radius: 32px;
+}
+.b-r-50 {
+    border-radius: 50%;
+}
+.btn-p-xs {
+    padding: 4px 8px;
+}
+.btn-p-s {
+    padding: 6px 12px;
+}
+.btn-p-m {
+    padding: 8px 16px;
+}
+.btn-p-l {
+    padding: 12px 24px;
+}
+.btn-p-x {
+    padding: 16px 32px;
+}
+.p-4 {
+    padding: 4px;
+}
+.p-6 {
+    padding: 6px;
+}
+.p-8 {
+    padding: 8px;
+}
+.p-12 {
+    padding: 12px;
+}
+.p-16 {
+    padding: 16px;
+}
+.hidden {
+    display: none;
+}
+.open {
+    display: flex;
+}
